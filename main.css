@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+    padding-top: 100px;
+}
+.navbar {
+    padding: 10px;
+    z-index: 100;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+h1,h4{
+    color: rgba(7, 59, 13, 0.8);
+}
+
+h2, h3{
+    color: rgba(28, 101, 35, 0.8);
+}
+
+b , i {
+    color: rgba(7, 59, 13, 0.8);
+}
+
+#about, #services, #loans, #testimonials, #enquiry{
+    padding-top: 80px;
+}
+
+#desktop{
+    display: block;
+}
+
+#mobile{
+    display: none;
+}
+
+#team{
+    padding-top: 70px;
+}
+
+.card{
+    border: white;
+    margin-bottom: 15px;
+}
+
+.card-body{
+    height: 132.19px;
+}
+
+@media (max-width: 767px) {
+    #desktop{
+        display: none;
+    }
+
+    #mobile{
+        display: block;
+    }
+}
+
+.service-box{
+    height: 50px;
+    border: 2px solid rgba(28, 101, 35, 0.8);
+    color: rgba(7, 59, 13, 0.8);
+    padding-top: 8px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
