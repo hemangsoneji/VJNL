@@ -86,10 +86,12 @@ b , i {
 
 .service-box{
     height: 50px;
-    border: 2px solid rgba(28, 101, 35, 0.8);
+    border: 10px solid rgba(28, 101, 35, 0.8);
     color: rgba(7, 59, 13, 0.8);
-    padding-top: 8px;
-    border-radius: 5px;
+    padding-top: 6px;
+    /* border-radius: 5px; */
+    /* background: rgba(28, 101, 35, 0.8); */
+    background: lightgreen;
 }
 
 footer{
