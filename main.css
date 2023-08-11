@@ -39,6 +39,24 @@
     color: rgba(28, 101, 35, 0.8);
 }
 
+@media (max-width: 576px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #vjnl-logo {
+        width: 225px;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+        border: 3px solid rgba(28, 101, 35, 0.8);
+    }
+}
+
 .ml-auto {
     margin-left: auto !important;
 }
@@ -62,7 +80,8 @@ i {
 #services,
 #loans,
 #testimonials,
-#enquiry {
+#enquiry,
+#team {
     padding-top: 80px;
 }
 
@@ -74,8 +93,8 @@ i {
     display: none;
 }
 
-#team {
-    padding-top: 70px;
+.mobileView {
+    border-bottom: 3px solid rgba(7, 59, 13, 0.8);
 }
 
 .card {
@@ -94,6 +113,10 @@ i {
     height: 132.19px;
 }
 
+#financial {
+    margin-top: 50px;
+}
+
 @media (max-width: 767px) {
     #desktop {
         display: none;
@@ -101,13 +124,22 @@ i {
 
     #mobile {
         display: block;
+        padding: 20px;
+    }
+
+    #financial {
+        margin-top: -2rem;
+    }
+
+    #team {
+        padding-top: 20px;
     }
 }
 
 .service-box {
     color: rgba(7, 59, 13, 0.8);
     padding-top: 6px;
-    box-shadow: 4px 4px 8px rgba(28, 101, 35, 0.8);
+    box-shadow: 2px 2px 8px black;
 }
 
 .service-box:hover {
@@ -244,4 +276,8 @@ footer a:hover {
 
 .icon-white {
     color: white;
+}
+
+.footerElements {
+    padding-bottom: 20px;
 }
